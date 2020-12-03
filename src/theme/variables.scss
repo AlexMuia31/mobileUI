@@ -3,6 +3,24 @@
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-color-aboutheader: #dee5f1;
+  --ion-color-aboutheader-rgb: 222, 229, 241;
+  --ion-color-aboutheader-contrast: #000000;
+  --ion-color-aboutheader-contrast-rgb: 0, 0, 0;
+  --ion-color-aboutheader-shade: #c3cad4;
+  --ion-color-aboutheader-tint: #e1e8f2;
+}
+
+.ion-color-aboutheader {
+  --ion-color-base: var(--ion-color-aboutheader);
+  --ion-color-base-rgb: var(--ion-color-aboutheader-rgb);
+  --ion-color-contrast: var(--ion-color-aboutheader-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-aboutheader-contrast-rgb);
+  --ion-color-shade: var(--ion-color-aboutheader-shade);
+  --ion-color-tint: var(--ion-color-aboutheader-tint);
+}
+
+:root {
   --ion-color-custom: #3670e5;
   --ion-color-custom-rgb: 54, 112, 229;
   --ion-color-custom-contrast: #ffffff;
